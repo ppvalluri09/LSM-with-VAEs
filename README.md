@@ -9,7 +9,7 @@ We train the network by using a somewhat modified version of vanilla autoencoder
 
 The network is trained using the loss function:-
 
-<center>```L(y, yhat) = BCE(y, yhat) + KL_divergence(mean, logvar)```</center>
+```L(y, yhat) = BCE(y, yhat) + KL_divergence(mean, logvar)```
 
 ## Sampling
 After the training is done we simply initialize a random vector whose dimension is equal to the dimension of the latent vector and then decode the <b>z-vector</b> with our VAE model which results in a sample from the learnt distribution. The first five features in this app are set by the user instead of being randomly initialized to have some control on the output of the model.
