@@ -1,5 +1,5 @@
 # LSM-with-VAEs
-Latent Space manipulation using Variational Autoencoders
+Latent Space manipulation using Variational Autoencoders. (the code for training the VAE model is in a notebook in the notebooks directory)
 
 ## Output
 ![Latent Space Manipulation using VAEs](https://raw.githubusercontent.com/ppvalluri09/LSM-with-VAEs/master/output.gif)
